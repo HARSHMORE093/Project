@@ -1,6 +1,6 @@
-package com.example.newsapp.ui.retrofit
+package com.example.newsapp.ui.modles
 
-import com.example.newsapp.ui.retrofit.Article
+import com.example.newsapp.ui.modles.Article
 
 data class NewsResponse(
     val articles: List<Article>,

@@ -2,13 +2,13 @@ package com.example.newsapp.ui.db
 
 import androidx.lifecycle.LiveData
 import androidx.room.*
-import com.example.newsapp.ui.retrofit.Article
+import com.example.newsapp.ui.modles.Article
 
 @Dao
 interface ArticleDao {
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
-    suspend fun upsert(article:Article):Long
+    suspend fun upsert(article: Article):Long
 
     @Query("SELECT * FROM articles")
     fun getAllArticles(): LiveData<List<Article>>

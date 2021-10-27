@@ -1,5 +1,6 @@
 package com.example.newsapp.ui.retrofit
 
+import com.example.newsapp.ui.modles.NewsResponse
 import com.example.newsapp.ui.utility.Constants.Companion.API_KEY
 import retrofit2.Response
 import retrofit2.http.GET

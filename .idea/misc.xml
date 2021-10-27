@@ -3,13 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Android/NewsApp2/app/src/main/res/drawable-v24/ic_all_news.xml" value="0.26614583333333336" />
+        <entry key="..\:/Android/NewsApp2/app/src/main/res/drawable-v24/ic_breaking_news.xml" value="0.26614583333333336" />
         <entry key="..\:/Android/NewsApp2/app/src/main/res/drawable-v24/ic_favorite.xml" value="0.26205128205128203" />
         <entry key="..\:/Android/NewsApp2/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Android/NewsApp2/app/src/main/res/drawable/ic_launcher_background.xml" value="0.26614583333333336" />
         <entry key="..\:/Android/NewsApp2/app/src/main/res/layout/activity_main.xml" value="0.24230072463768115" />
-        <entry key="..\:/Android/NewsApp2/app/src/main/res/layout/fragment_article.xml" value="0.536" />
+        <entry key="..\:/Android/NewsApp2/app/src/main/res/layout/activity_news.xml" value="0.176" />
+        <entry key="..\:/Android/NewsApp2/app/src/main/res/layout/fragment_article.xml" value="0.152" />
         <entry key="..\:/Android/NewsApp2/app/src/main/res/layout/fragment_breaking_news.xml" value="0.1" />
         <entry key="..\:/Android/NewsApp2/app/src/main/res/layout/fragment_saved_news.xml" value="0.1" />
-        <entry key="..\:/Android/NewsApp2/app/src/main/res/layout/fragment_search_news.xml" value="0.1" />
+        <entry key="..\:/Android/NewsApp2/app/src/main/res/layout/fragment_search_news.xml" value="0.12" />
         <entry key="..\:/Android/NewsApp2/app/src/main/res/layout/item_article_preview.xml" value="0.264" />
         <entry key="..\:/Android/NewsApp2/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.25" />
       </map>

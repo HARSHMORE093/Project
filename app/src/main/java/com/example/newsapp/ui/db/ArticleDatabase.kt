@@ -19,7 +19,7 @@ abstract class ArticleDatabase: RoomDatabase() {
         private var instance:ArticleDatabase? = null
         private val LOCK=Any()
 
-        operator fun invoke(context: Context)= instance?: synchronized(LOCK){//synchorniced lock used for
+        operator fun invoke(context: Context)= instance?: synchronized(LOCK){//synchorniced lock used for 2,3 theards ek sathh kam nahi kare
             instance?:createDatabase(context).also { instance=it}
         }
         private fun createDatabase(context: Context)=

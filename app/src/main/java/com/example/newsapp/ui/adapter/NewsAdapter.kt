@@ -24,7 +24,7 @@ class NewsAdapter :RecyclerView.Adapter<NewsAdapter.ArticleViewHolder>(){
             return oldItem==newItem
         }
     }
-    val differ=AsyncListDiffer(this,differCallback)//differ list hai call karne me asane hogi
+    val differ=AsyncListDiffer(this,differCallback)//differ list hai jisko call karne me asane hogi niche
 
 
 

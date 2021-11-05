@@ -6,7 +6,8 @@ import com.example.newsapp.ui.modles.Article
 
 @Database(
     entities = [Article::class],//1 entities link kar de
-    version = 1
+    version = 1 ,
+    exportSchema = false
 )
 @TypeConverters(Converters::class)
 abstract class ArticleDatabase: RoomDatabase() {
